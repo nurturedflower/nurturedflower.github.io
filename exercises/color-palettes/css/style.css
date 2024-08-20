@@ -1,0 +1,110 @@
+#palette1-title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    text-align: center;
+}
+
+#palette1-color1 {
+    background-color: #43444A;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color2 {
+    background-color: #EDF0F7;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color3 {
+    background-color: #CCDBE0;
+    color: darkcyan;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-title {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#palette2-color1 {
+    background-color: #BC84A0;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color2 {
+    background-color: #F0DCB3;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color3 {
+    background-color: #FFFBEF;
+    color: gray;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color4 {
+    background-color: #F5AFB0;
+    color: darkred;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-title {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#palette3-color1 {
+    background-color: #4C0606;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color2 {
+    background-color: #86003C;
+    color: #23030d;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color3 {
+    background-color: #E41F7B;
+    color: #3e091c;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color4 {
+    background-color: #FF8BA0;
+    color: #761c49;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color5 {
+    background-color: #FFB6B3;
+    color: #7d342c;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
