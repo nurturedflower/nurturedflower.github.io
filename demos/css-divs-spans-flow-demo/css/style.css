@@ -1,5 +1,35 @@
 .narrow {
     width: 200px;
     background-color: lightsalmon;
+    color: #562615;
     display: inline-block;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#span-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    font-style: italic;
+    background-color: antiquewhite;
+}
+
+#span-2 {
+    font-family:'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+    display: inline-block;
+    font-style: oblique;
+    color: white;
+    background-color: hotpink;
+}
+
+p {
+    background-color: lightpink;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+
+#div-1 {
+    background-color: lightgreen;
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    color: #003100;
 }
