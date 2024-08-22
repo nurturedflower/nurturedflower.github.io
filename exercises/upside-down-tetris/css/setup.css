@@ -38,7 +38,7 @@ body {
 
 #game-container {
     display: grid;
-    grid-template-columns: 1fr 100px 442px 100px 1fr;
+    grid-template-columns: 1fr 100px 448px 100px 1fr;
     grid-template-areas: 
         ". wall-1 stage wall-2 .";
 }
