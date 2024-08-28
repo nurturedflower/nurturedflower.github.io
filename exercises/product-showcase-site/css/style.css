@@ -15,6 +15,10 @@ body {
     background-color: darkorchid;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 #navbar a {
     color: white;
     text-decoration: none;
@@ -23,13 +27,70 @@ body {
     padding: 12px 12px 12px 0px;
 }
 
-#navbar-column,
+#navbar-column {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.light-container {
+    background-color: orchid;
+    padding: 25px 0px;
+}
+
 .center-column {
     width: 50%;
-    margin: 0px auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .rean-image-1 {
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    /* border: 25px solid purple; */
+    /* border-style: ridge; */
+}
+
+.text-1 {
+    font-size: 20px;
+}
+
+.text-2 {
+    font-size: 20px;
+}
+
+#character-name-1 {
+    font-weight: bold;
+}
+
+#character-name-2 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#game-series-title {
+    font-weight: bold;
+}
+
+#game-title {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#s-craft-name {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.dark-container {
+    background-color: darkorchid;
+    padding: 25px 0px;
+    color: white;
+}
+
+.text-3 {
+    font-size: 20px;
+}
+
+.text-4 {
+    font-size: 20px;
 }
