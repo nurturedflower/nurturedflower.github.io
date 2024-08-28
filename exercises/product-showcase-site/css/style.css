@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: plum;
+}
+
+#navbar {
+    background-color: darkorchid;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Unicode', Verdana, sans-serif;
+    display: inline-block;
+    padding: 12px 12px 12px 0px;
+}
+
+#navbar-column,
+.center-column {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.rean-image-1 {
+    margin-left: auto;
+    margin-right: auto;
+}
