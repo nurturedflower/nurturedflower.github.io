@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    background-color: white;
+    /* flex: 1; */
+    width: 250px;
+    /* order: 2; */
+    padding: 24px;
+    /* border-right: 2px solid gray; */
+}
+
+#sidebar-content h4 {
+    border-bottom: 2px solid gray;
+    padding-bottom: 8px;
+}
+
+#sidebar-content ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#sidebar-content ul a {
+    text-decoration: none;
+}
+
+#sidebar-content li {
+    padding: 4px 0px;
+}
+
+#main-content {
+    /* background-color: lightgreen; */
+    flex: 1;
+    max-width: 800px;
+    /* order: 1; */
+    padding: 48px;
+}
+
+#main-content h1 {
+    font-style: italic;
+    border-bottom: 2px solid gray;
+    padding-bottom: 4px;
+}
+
+#wikipedia-text-1 {
+    font-style: italic;
+}
+
+#redirect-text {
+    font-style: italic;
+    color: white;
+    background-color: gray;
+    padding: 5px;
+}
+
+#game-title {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#game-series-title {
+    font-style: italic;
+}
+
+#series-title {
+    font-style: italic;
+}
