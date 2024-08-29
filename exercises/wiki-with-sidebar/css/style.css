@@ -87,3 +87,12 @@ body {
 #game-title-3 {
     font-style: italic;
 }
+
+#game-title-4 {
+    font-style: italic;
+}
+
+#main-content h2 {
+    border-bottom: 2px solid gray;
+    padding-bottom: 4px;
+}
