@@ -44,7 +44,9 @@ h1 {
     margin-right: auto;
 }
 
-.rean-image-1 {
+.rean-image-1,
+.rean-image-2,
+.rean-image-3 {
     width: 100%;
     /* border: 25px solid purple; */
     /* border-style: ridge; */
