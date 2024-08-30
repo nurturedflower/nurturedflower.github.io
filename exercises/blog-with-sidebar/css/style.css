@@ -30,6 +30,7 @@ body {
     margin: 0px;
     padding: 12px;
     font-size: 18px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 #sidebar-content ul {
@@ -38,6 +39,7 @@ body {
     margin: 0px 0px 36px;
     list-style-type: none;
     padding: 0px 12px;
+    border-radius: 0px 0px 15px 15px;
 }
 
 #sidebar-content a {
@@ -58,6 +60,7 @@ body {
     background-color: #4E7093;
     grid-area: content;
     margin: 0px 36px;
+    border-radius: 10px;
 }
 
 #main-content {
