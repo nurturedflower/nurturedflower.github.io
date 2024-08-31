@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas:
+        "header header"
+        "sidebar main";
+}
+
+#header {
+    /* background-color: lightskyblue; */
+    grid-area: header;
+    padding: 0px 36px;
+}
+
+#sidebar {
+    /* background-color: lightpink; */
+    grid-area: sidebar;
+    padding: 0px 24px;
+}
+
+#main {
+    /* background-color: lightblue; */
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/************************** 
+Header Styling Section!!
+***************************/
+
+#header a {
+    text-decoration: none;
+}
+
+#header #me {
+    color: #111111;
+}
+
+#header #tube {
+    color: white;
+    background: radial-gradient(
+        at top,
+        blue,
+        skyblue);
+    padding: 4px;
+    border-radius: 12px;
+}
+
+/************************** 
+Sidebar Styling Section!!
+***************************/
+
+#sidebar ul {
+    padding: 12px 0px;
+    margin: 0px;
+    list-style-type: none;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+#sidebar ul a {
+    text-decoration: none;
+    color: #111111;
+    padding: 12px;
+    display: block;
+}
+
+/* pseudo-class */
+#sidebar ul a:hover {
+    background-color: white;
+    border-radius: 12px;
+}
+
+/************************** 
+Main/MeTube-Item Styling Section!!
+***************************/
+
+.metube-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+/* .metube-item .thumbnail-placeholder {
+    background: radial-gradient(
+        at top left, 
+        crimson, 
+        orange
+    );
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+} */
+
+.metube-item h4 {
+    margin: 8px;
+}
+
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111111;
+    display: block;
+}
+
+.metube-item h4 a:hover {
+    text-decoration: underline;
+}
+
+.metube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+}
+
+.metube-item .video-channel {
+    margin-bottom: 4px;
+}
+
+.metube-item #gyw-thumbnail {
+    width: 100%;
+    border: 6px solid #1a73e8;
+    border-radius: 10px 30px;
+}
+
+.metube-item #hoshi-no-arika-thumbnail {
+    width: 100%;
+    border: 6px solid orange;
+    border-radius: 30px 10px;
+}
+
+.metube-item #something-comforting-thumbnail {
+    width: 100%;
+    border: 6px solid #4cb5de;
+    border-radius: 10px 30px;
+}
+
+.metube-item #find-love-thumbnail {
+    width: 100%;
+    border: 6px solid #f98736;
+    border-radius: 30px 10px;
+}
+
+.metube-item #counting-stars-thumbnail {
+    width: 100%;
+    border: 6px solid #8f3616;
+    border-radius: 10px 30px;
+}
+
+.metube-item #stereo-hearts-thumbnail {
+    width: 100%;
+    border: 6px solid #68d0ad;
+    border-radius: 30px 10px;
+}
+
+body {
+    background-color: antiquewhite;
+}
