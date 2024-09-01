@@ -48,8 +48,7 @@ Header Styling Section!!
 
 #header #tube {
     color: white;
-    background: radial-gradient(
-        at top,
+    background: linear-gradient(
         blue,
         skyblue);
     padding: 4px;
@@ -125,37 +124,37 @@ Main/MeTube-Item Styling Section!!
 
 .metube-item #gyw-thumbnail {
     width: 100%;
-    border: 6px solid #1a73e8;
+    border: 6px solid #165bb5;
     border-radius: 10px 30px;
 }
 
 .metube-item #hoshi-no-arika-thumbnail {
     width: 100%;
-    border: 6px solid orange;
+    border: 6px solid #874b1d;
     border-radius: 30px 10px;
 }
 
 .metube-item #something-comforting-thumbnail {
     width: 100%;
-    border: 6px solid #4cb5de;
+    border: 6px solid #1179a3;
     border-radius: 10px 30px;
 }
 
 .metube-item #find-love-thumbnail {
     width: 100%;
-    border: 6px solid #f98736;
+    border: 6px solid #df6d1c;
     border-radius: 30px 10px;
 }
 
 .metube-item #counting-stars-thumbnail {
     width: 100%;
-    border: 6px solid #8f3616;
+    border: 6px solid #90490f;
     border-radius: 10px 30px;
 }
 
 .metube-item #stereo-hearts-thumbnail {
     width: 100%;
-    border: 6px solid #68d0ad;
+    border: 6px solid #4ab7a8;
     border-radius: 30px 10px;
 }
 
