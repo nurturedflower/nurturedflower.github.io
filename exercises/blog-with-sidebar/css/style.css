@@ -8,7 +8,7 @@ body {
 }
 
 body {
-    background-color: #4C3E87;
+    background-color: #4c4f78;
 }
 
 #grid-layout {
@@ -57,9 +57,10 @@ body {
 }
 
 #main-content {
-    background-color: #4E7093;
+    background-color: #516BB0;
     grid-area: content;
     margin: 0px 36px;
+    border: 5px solid #202f58;
     border-radius: 10px;
 }
 
