@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#page-layout {
+    display: grid;
+    grid-template-columns: 425px 465px 1fr;
+    grid-template-areas: "column-area-1 column-area-2 column-area-3"
+}
+
+#column-one {
+    padding: 0px 24px;
+    grid-area: column-area-1;
+}
+
+#column-two {
+    padding: 24px;
+    grid-area: column-area-2;
+}
+
+#column-three {
+    padding: 24px;
+    grid-area: column-area-3;
+}
+
+#rean-block-image {
+    width: 100%;
+}
+
+#column-two .product-heading {
+    padding-bottom: 4px;
+    border-bottom: 1px solid gray;
+}
+
+#column-two p #bold {
+    font-weight: bold;
+}
+
+#column-two .information {
+    margin: 10px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+#column-three .information {
+    margin: 10px;
+}
+
+#buttons {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#dark-button {
+    background-color: #5078b1;
+    color: white;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 25px;
+}
+
+#dark-button:hover {
+    background-color: #92b1db;
+    color: #161e2a;
+}
+
+#light-button {
+    background-color: #b7cce9;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 25px;
+}
+
+#light-button:hover {
+    background-color: #e3e9f0;
+    color: #74879d;
+}
+
+#blank-button {
+    border: 4px solid gray;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 25px;
+}
+
+#blank-button:hover {
+    color: #262626;
+    border: 4px solid #493f31;
+}
