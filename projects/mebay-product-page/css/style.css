@@ -9,8 +9,8 @@ body {
 
 #page-layout {
     display: grid;
-    grid-template-columns: 425px 465px 1fr;
-    grid-template-areas: "column-area-1 column-area-2 column-area-3"
+    grid-template-columns: 1fr 425px 465px 250px 1fr;
+    grid-template-areas: ". column-area-1 column-area-2 column-area-3 .";
 }
 
 #column-one {
@@ -37,13 +37,19 @@ body {
     border-bottom: 1px solid gray;
 }
 
+#column-two #paragraph-text {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
 #column-two p #bold {
     font-weight: bold;
 }
 
 #column-two .information {
-    margin: 10px 0px;
-    padding-bottom: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 15px;
     border-bottom: 1px solid gray;
 }
 
@@ -90,6 +96,6 @@ body {
 }
 
 #blank-button:hover {
-    color: #262626;
-    border: 4px solid #493f31;
+    color: #454545;
+    border: 4px solid #2f271b;
 }
