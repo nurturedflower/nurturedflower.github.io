@@ -1,0 +1,125 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+#pokemon-card-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background: linear-gradient(
+        -50deg,
+        lightgreen,
+        green
+    );
+    border: 18px solid #ffcc00;
+    border-radius: 15px;
+    padding: 0px 15px;
+    margin: 10px;
+}
+
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-header {
+    font-size: 18px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#pokemon-card-1 .pokemon-header .health {
+    font-size: 18px;
+}
+
+#pokemon-card-1 img {
+    width: 100%;
+    border: 8px solid goldenrod;
+}
+
+#pokemon-card-1 .details {
+    background: linear-gradient(
+        50deg,
+        goldenrod,
+        gold,
+        goldenrod
+    );
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#pokemon-card-1 .description {
+    padding: 15px;
+}
+
+#pokemon-card-1 .attack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pokemon-card-1 .attack .bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#pokemon-card-1 .power {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#pokemon-card-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background: linear-gradient(
+        -50deg,
+        lightgreen,
+        green
+    );
+    border: 18px solid #ffcc00;
+    border-radius: 15px;
+    padding: 0px 15px;
+    margin: 10px;
+}
+
+#pokemon-card-3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background: linear-gradient(
+        -50deg,
+        #cf9532,
+        #ff8400
+    );
+    border: 18px solid #ffcc00;
+    border-radius: 15px;
+    padding: 0px 15px;
+    margin: 10px;
+}
+
+#pokemon-card-4 {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background: linear-gradient(
+        -50deg,
+        #addbf7,
+        #57a4ec
+    );
+    border: 18px solid #ffcc00;
+    border-radius: 15px;
+    padding: 0px 15px;
+    margin: 10px;
+}
