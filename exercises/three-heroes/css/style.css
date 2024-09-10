@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/sven-schlager-xzjouTJASSA-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-1 .hero-content {
+    color: #e8ffe8;
+    font-size: 1.5vw;
+    padding-left: 6vw;
+}
+
+#hero-1 h1,
+#hero-1 h3 {
+    background-color: #135918;
+    padding: 24px;
+}
+
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #1b6e1b;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+.spacer {
+    height: 100vh;
+}
+
+#hero-2 {
+    background-image: url("../images/henry-be-IicyiaPYGGI-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-2 .hero-content {
+    color: whitesmoke;
+    font-size: 1.5vw;
+}
+
+#hero-2 h1,
+#hero-2 h2,
+#hero-2 h3 {
+    background-color: #a78b6c;
+    padding: 18px;
+    border: 5px solid #443626;
+    border-radius: 15px;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #a78b6c;
+    border: 5px solid #443626;
+    border-radius: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 24px;
+    margin: 2vh 1vw 5vh 0px;
+}
+
+#hero-3 {
+    background-image: url("../images/livia-rpryWTMTcSc-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-3 .hero-content {
+    color: #c4e5c4;
+    font-size: 1.5vw;
+    padding-right: 6vw;
+}
+
+#hero-3 h1,
+#hero-3 h2 {
+    background-color: green;
+    padding: 18px;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: green;
+    color: #c4e5c4;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
