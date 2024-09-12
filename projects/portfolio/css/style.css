@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #E2E5EC;
+}
+
+#layout {
+    max-width: 900px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#hero {
+    background-image: url("../images/andy-brown-cVLHo7nJumQ-unsplash.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    text-align: center;
+    color: #F3F6EF;
+}
+
+#hero .hero-content h1 {
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#hero .hero-content p a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: #F3F6EF;
+    background-color: #3378B1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    background-color: #3378B1;
+    color: #F3F6EF;
+    padding: 32px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid #F3F6EF;
+    padding: 36px;
+    text-align: center;
+    margin: 24px;
+}
+
+.card h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.card p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 24px 0px 0px;
+}
+
+.card p a {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: #F3F6EF;
+    background-color: #0d4674;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#heading {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#gallery-description {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#gallery-description a {
+    display: inline-block;
+    text-decoration: none;
+    color: #F3F6EF;
+    background-color: #0d4674;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.gallery-heading {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 24px;
+}
+
+.illustrator-gallery {
+    columns: 3;
+    column-gap: 24px;
+}
+
+.illustrator-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+
+.photoshop-gallery {
+    columns: 3;
+    column-gap: 24px;
+}
+
+.photoshop-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+
+.fanart-gallery {
+    columns: 3;
+    column-gap: 24px;
+}
+
+.fanart-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+
+.personal-art-gallery {
+    columns: 3;
+    column-gap: 24px;
+}
+
+.personal-art-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
