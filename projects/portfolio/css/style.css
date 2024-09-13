@@ -37,6 +37,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+#hero .hero-content #buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
 #hero .hero-content p a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -47,6 +53,12 @@ body {
     background-color: #0d4674;
     padding: 20px;
     border-radius: 10px;
+    transition:
+        background-color .5s;
+}
+
+#hero .hero-content p a:hover {
+    background-color: #79abd5;
 }
 
 .single-column {
@@ -95,6 +107,12 @@ body {
     background-color: #0d4674;
     padding: 20px;
     border-radius: 10px;
+    transition:
+        background-color .5s;
+}
+
+.card p a:hover {
+    background-color: #79abd5;
 }
 
 #heading {
