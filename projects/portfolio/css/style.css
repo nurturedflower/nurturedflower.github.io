@@ -12,14 +12,14 @@ body {
 }
 
 #layout {
-    max-width: 900px;
-    margin: 48px auto;
+    max-width: 850px;
+    margin: 0px auto;
     text-align: center;
 }
 
 #hero {
     background-image: url("../images/andy-brown-cVLHo7nJumQ-unsplash.jpg");
-    height: 50vh;
+    height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -44,7 +44,7 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #F3F6EF;
-    background-color: #3378B1;
+    background-color: #0d4674;
     padding: 20px;
     border-radius: 10px;
 }
@@ -58,7 +58,7 @@ body {
 #card-section {
     background-color: #3378B1;
     color: #F3F6EF;
-    padding: 32px;
+    padding: 48px;
 }
 
 .card-container {
@@ -69,7 +69,7 @@ body {
 .card {
     flex: 1;
     border: 3px solid #F3F6EF;
-    padding: 36px;
+    padding: 32px;
     text-align: center;
     margin: 24px;
 }
