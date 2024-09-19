@@ -115,12 +115,51 @@ h1 {
 }
 
 #card9:hover {
-    background-color: orange;
+    background-color: #d9954e;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
 
 #card9 {
+    transition:
+        background-color 0.5s,
+        box-shadow  0.5s,
+        transform 0.5s;
+}
+
+#card10:hover {
+    background-color: #b0c5e2;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card10 {
+    transition:
+        background-color 0.5s,
+        box-shadow  0.5s,
+        transform 0.5s;
+}
+
+#card11:hover {
+    background-color: #7bcf82;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card11 {
+    transition:
+        background-color 0.5s,
+        box-shadow  0.5s,
+        transform 0.5s;
+}
+
+#card12:hover {
+    background-color: #ef6360;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card12 {
     transition:
         background-color 0.5s,
         box-shadow  0.5s,
