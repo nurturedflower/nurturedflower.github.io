@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#hover-gallery-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#card1,
+#card2,
+#card3,
+#card4 {
+    position: relative;
+}
+
+#card1 img,
+#card2 img,
+#card3 img,
+#card4 img {
+    width: 100%;
+}
+
+#card1 .card-content,
+#card2 .card-content,
+#card3 .card-content,
+#card4 .card-content {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card1:hover .card-content,
+#card2:hover .card-content,
+#card3:hover .card-content,
+#card4:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#hover-gallery-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#card5 img,
+#card6 img,
+#card7 img,
+#card8 img {
+    width: 100%;
+}
+
+#card5 a,
+#card6 a,
+#card7 a,
+#card8 a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 14px;
+    margin-top: 32px;
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card5 a:hover,
+#card6 a:hover,
+#card7 a:hover,
+#card8 a:hover {
+    background-color: white;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#hover-gallery-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#card9:hover {
+    background-color: orange;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card9 {
+    transition:
+        background-color 0.5s,
+        box-shadow  0.5s,
+        transform 0.5s;
+}
