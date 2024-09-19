@@ -12,7 +12,7 @@ body {
 }
 
 #layout {
-    max-width: 850px;
+    max-width: 975px;
     margin: 0px auto;
     text-align: center;
 }
@@ -181,5 +181,37 @@ body {
 .personal-art-gallery img {
     width: 100%;
     margin-bottom: 24px;
+    border-radius: 10px;
+}
+
+.web-dev-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    padding: 24px;
+}
+
+.web-dev-gallery .button {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 24px;
+}
+
+.web-dev-gallery a {
+    text-decoration: none;
+    display: inline-block;
+    color: #F3F6EF;
+    background-color: #0d4674;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.web-dev-gallery a:hover {
+    background-color: #79abd5;
+}
+
+.web-dev-gallery img {
+    width: 100%;
     border-radius: 10px;
 }
