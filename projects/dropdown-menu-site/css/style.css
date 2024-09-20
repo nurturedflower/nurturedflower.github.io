@@ -68,13 +68,24 @@ body {
 }
 
 #hero {
-    background-image: url("../images/woman_with_dog.jpg");
-    height: 100vh;
+    background-image: url("../images/cat-2.jpg");
+    height: 50vh;
     background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+#hero h1 {
+    color: #593a19;
+    font-size: 36px;
+    background-color: #e8a762;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: 34px;
+    margin-bottom: 425px;
+    border-radius: 18px;
 }
 
 .spacer {
@@ -101,8 +112,41 @@ body {
 }
 
 .center-column p {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
-    margin: 14px;
+    margin: 10px;
     padding: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar #logo {
+        margin-right: 0px;
+    }
+
+    #navbar a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown-container {
+        width: 100%;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+    }
+
+    #hero {
+        flex-direction: column;
+    }
+
+    #hero h1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
