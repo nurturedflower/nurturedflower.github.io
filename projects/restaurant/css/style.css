@@ -41,6 +41,53 @@ body {
     width: 130px;
 }
 
+#hero {
+    background-image: url(../images/treehouse-2.jpg);
+    height: 65vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 8px solid #3a2512;
+}
+
+#hero .hero-content {
+    text-align: center;
+    color: #25150f;
+    background-color: #ebdfcb;
+    padding: 32px;
+    border: 8px solid #3a2512;
+    border-radius: 12px;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-top: 14px;
+}
+
+#hero a {
+    font-size: 16px;
+    display: inline-block;
+    background-color: #3a2512;
+    color: #ebdfcb;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#hero a:hover {
+    background-color: #7a512d;
+}
+
+.heading {
+    text-align: center;
+    font-size: 22px;
+    color: #25150f;
+    background-color: #ebdfcb;
+    padding: 2px;
+    border-bottom: 8px solid #3a2512
+}
+
 #centered-column {
     width: 90vw;
     max-width: 800px;
