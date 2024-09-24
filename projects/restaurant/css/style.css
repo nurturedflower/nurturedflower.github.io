@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../images/Website\ Background.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#navbar {
+    background-color: #598745;
+    display: flex;
+    align-items: center;
+    border-bottom: 10px solid #3a2512;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #c3ec94;
+    padding: 62px 28px;
+}
+
+#navbar a:hover {
+    background-color: #4b5d40;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+
+#navbar #logo img {
+    width: 130px;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    border: 8px solid #3a2512;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #598745;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    font-size: 28px;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card h3 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer {
+    border-top: 10px solid #3a2512;
+    background-color: #598745;
+    color: #c3ec94;
+    padding: 14px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #c3ec94
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
