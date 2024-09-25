@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #fffcf9;
+}
+
+.center-column {
+    width: 1000px;
+    margin: 48px auto;
+}
+
+.headings {
+    text-align: center;
+}
+
+.headings h5 {
+    font-size: 22px;
+}
+
+.headings h2 {
+    font-size: 50px;
+}
+
+.headings h4 {
+    font-size: 28px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#container .image-container img {
+    width: 100%;
+}
+
+#container #heading-1 {
+    margin: 28px;
+    position: relative;
+    top: 250px;
+}
+
+#container #heading-1 h1 {
+    font-size: 36px;
+}
+
+.headings h3 {
+    font-size: 46px;
+}
+
+.text-area {
+    text-align: center;
+}
+
+.text-area p {
+    font-size: 20px;
+}
+
+.buttons {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+.buttons a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 24px;
+    color: black;
+    font-weight: bold;
+}
+
+.buttons #can-make-it-button {
+    background-color: green;
+}
+
+.buttons #can-make-it-button:hover {
+    background-color: #4dc74d;
+}
+
+.buttons #cant-make-it-button {
+    background-color: #9a1d1d;
+}
+
+.buttons #cant-make-it-button:hover {
+    background-color: #e67777;
+}
+
+@media screen and (max-width: 481px) {
+    .center-column {
+        width: 90%;
+    }
+
+    .headings {
+        text-align: center;
+    }
+
+    .headings h5 {
+        font-size: 18px;
+    }
+    
+    .headings h2 {
+        font-size: 32px;
+    }
+    
+    .headings h4 {
+        font-size: 20px;
+    }
+
+    #container {
+        flex-direction: column;
+    }
+
+    #container #heading-1 {
+        text-align: center;
+        top: 1px;
+    }
+
+    #container #heading-1 h1 {
+        font-size: 30px;
+    }
+
+    .headings h3 {
+        font-size: 24px;
+    }
+
+    .text-area {
+        text-align: center;
+    }
+    
+    .text-area p {
+        font-size: 18px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+}
